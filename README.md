@@ -164,7 +164,7 @@ See [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed instructions.
    ```
 
 5. **Open your browser:**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+   Navigate to [https://skills-swap-oddo.vercel.app/]https://skills-swap-oddo.vercel.app/
 
 ---
 
