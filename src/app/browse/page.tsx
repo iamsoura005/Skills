@@ -61,7 +61,7 @@ export default function BrowsePage() {
     if (error) {
       console.error('Error fetching categories:', error)
     } else {
-      const uniqueCategories = [...new Set(data?.map(item => item.category) || [])]
+      const uniqueCategories = Array.from(new Set(data?.map(item => item.category) || []))
       setCategories(uniqueCategories)
     }
   }
